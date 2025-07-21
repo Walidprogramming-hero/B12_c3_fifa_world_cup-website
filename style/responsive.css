@@ -1,0 +1,23 @@
+/* mobile device */
+@media screen and (max-width:576px) {
+    .nav-links{
+        flex-direction: column;
+    }
+    .nav-link{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-itme{
+        margin-right: 0;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-content{
+        text-align: center;
+    }
+}
+/* laptop and tablet device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}

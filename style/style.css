@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Poppins google fonts */
+.poppins-fonts{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* shared styling starts */
+/*banner session starts*/
+.primary-btn{
+    padding: 16px 25px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+/* buttons session ends */
+.helvetics-fonts{
+   font-family: 'Helvetica Neue', sans-serif;                            
+}
+.continer{
+    max-width: 1414px;
+    margin: 50px auto 100px auto;
+}
+.display-flex{
+    display: flex;
+}
+.background{
+    background-color: #161616;
+}
+/* dark-1 starts */
+.dark-1{
+    color: #161616;
+}
+/* dark-1 ends */
+/* dark-2 starts */
+.dark-2{
+    color: #B9B9B9;
+}
+/* dark-2 ends */
+/* dark-3 starts */
+.dark-3{
+    color: #FFFFFF;
+}
+/* dark-3 ends */
+/* shared styling ends */
+/* nav styling starts */
+#margin{
+    margin: 0 auto 50px auto;
+}
+.logo img{
+    width: 100px;
+}
+
+.nav-links{
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+  box-shadow: 0 0 5px;
+  background-color: white;
+  background-color: #161616;
+}
+.nav-itme{
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+/* nav styling ends */
+/* banner styling starts */
+.banner{
+    align-items: center;
+    padding: 25px 50px;
+    border-radius: 30px;
+    gap: 80px;
+    justify-content: space-between;
+}
+#top{
+    margin: 150px auto;
+}
+.banner-content{
+    max-width: 568px;
+    flex: 1;
+}
+.banner-tittle{
+    font-size: 4.5rem;
+    margin-bottom: 25px;
+}
+#size{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.bannner-img{
+    max-width: 622px;
+    flex: 1;
+}
+.bannner-img img{
+    width: 100%;
+}
+/* banner styling ends */
