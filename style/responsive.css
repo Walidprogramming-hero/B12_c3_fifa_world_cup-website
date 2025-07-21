@@ -1,9 +1,9 @@
 /* mobile device */
 @media screen and (max-width:576px) {
-    .nav-links{
+    .nav-bar{
         flex-direction: column;
     }
-    .nav-link{
+    .nav-links{
         flex-direction: column;
         align-items: center;
     }
@@ -16,8 +16,22 @@
     .banner-content{
         text-align: center;
     }
-}
+    .up-coming-matech{
+        flex-direction: column;
+    }
+    .up-coming-content{
+        flex-direction:row;
+        width: 100%;
+    }
+    .up-coming{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
 /* laptop and tablet device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    
+    .up-coming{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+}
 }
