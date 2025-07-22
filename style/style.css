@@ -80,7 +80,6 @@
     list-style: none;
     border-radius: 8px;
     visibility: hidden;
-    transform: translate(500px);
    transition: transform 0.3s ease-in;
     transition: 0.3s ease-in;
 }
@@ -90,7 +89,6 @@
 }
 .nav-itme:hover .sub{
     visibility: visible;
-    transform: translate(0);
 }
 /* sub-menu ends */
 .nav-link{
